@@ -1,0 +1,51 @@
+#seePrograms_main {
+       width: 300px;
+       height: 314px;
+       border-radius: 15px;
+       border: 2px solid #E5E7EB;
+       background: #FFF;
+       text-align: center;
+       /* padding: 20px 0px; */
+       padding-top: 30px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-between;
+       margin: 10%, 10%;
+}
+
+#seePrograms_main img {
+       width: 104px;
+       height: 102px;
+       flex-shrink: 0;
+}
+
+#seePrograms_main h1 {
+       margin: 20px;
+       font-size: 30px;
+       font-style: normal;
+       font-weight: 600;
+       line-height: normal;
+       text-transform: capitalize;
+}
+
+#seePrograms_seePrograms {
+       background: black;
+       height: 79px;
+       text-align: center;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 0px 0px 15px 15px;
+       background: #202125;
+}
+
+#seePrograms_seePrograms h2 {
+       color: #FFF;
+       font-family: Poppins;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: normal;
+}
