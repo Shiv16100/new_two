@@ -4,6 +4,8 @@ import Topview from './components/TopView/Topview.jsx';
 import HiringPartners from './components/hiringPartners/HiringPartners.jsx';
 import ExploreThePrograms from './components/exploreThePrograms/ExploreThePrograms.jsx';
 import WhyChooseCareerCorps from './components/whyChooseCareerCorps/WhyChooseCareerCorps.jsx';
+import MAST from './components/mentorAndStudentTestimonials/MAST.jsx';
+import Footer from './components/footer/Footer.jsx';
 
 
 // internship_assingment
@@ -15,6 +17,8 @@ function App() {
     <HiringPartners/>
     <ExploreThePrograms/>
     <WhyChooseCareerCorps/>
+    <MAST/>
+    <Footer/>
   </>
   );
 }

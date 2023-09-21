@@ -8,6 +8,17 @@ import walmart from './../../images/walmart.svg'
 import './hiringPartners.css'
 
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
+// import required modules
+import { Pagination } from 'swiper/modules';
+
+
 const HiringPartners = () => {
   return (
     <div>
@@ -19,6 +30,14 @@ const HiringPartners = () => {
           <img src={microsoft} alt="" />
           <img src={walmart} alt="" />
           <img src={fedex} alt="" />
+
+          <img src={airbnb} alt="" />
+          <img src={hubspot} alt="" />
+          <img src={google} alt="" />
+          <img src={microsoft} alt="" />
+          <img src={walmart} alt="" />
+          <img src={fedex} alt="" />
+          
         </div>
       </div>
     </div>

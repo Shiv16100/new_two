@@ -13,6 +13,9 @@ const Topview = () => {
   return (
     <div>
       <div id="top_main">
+        <div id="center">
+
+        
         <div id="learners">
           <img src={learner} alt="" />
           <div id="learner_text">
@@ -66,6 +69,7 @@ const Topview = () => {
 
       </div>
 
+    </div>
     </div>
   )
 }

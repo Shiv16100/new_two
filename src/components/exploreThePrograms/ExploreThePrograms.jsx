@@ -17,6 +17,7 @@ const ExploreThePrograms = () => {
                      <SeePrograms img={cssCode} name="Technology"/>
                      <SeePrograms img={socialMedialMarketing} name="Marketing"/>
                      <SeePrograms img={personalGrowth} name="Growth"/>
+                     
               </div>
        </div>
       

@@ -2,13 +2,22 @@
        height: 732px;
        background: #202125;
        position: relative;
+       display: flex;
+       justify-content: center;
+       align-items: center;
 }
+/* #center{
+       position: relative;
+       width: 90%;
+       height: 90%;
+} */
 
 #learners {
 
        position: absolute;
        top: 36px;
-       left: 100px;
+       /* left: 300px; */
+       left: 10%;
        display: flex;
        width: 327.353px;
        height: 140px;
@@ -45,7 +54,7 @@
 #vector1 {
        position: absolute;
        top: 197px;
-       left: 186.55px;
+       left: 20%;
        width: 53.947px;
        height: 65px;
 }
@@ -56,7 +65,7 @@
 
        position: absolute;
        top: 511px;
-       left: 971px;
+       left: 66%;
        display: flex;
        width: 441px;
        height: 120px;
@@ -95,7 +104,7 @@
 #vector2 {
        position: absolute;
        top: 471px;
-       left: 911px;
+       left: 61%;
        width: 53.947px;
        height: 65px;
 }
@@ -107,7 +116,7 @@
 
        position: absolute;
        top: 76px;
-       left: 1178px;
+       left: 74%;
        display: flex;
        width: 234px;
        height: 100px;
@@ -148,7 +157,7 @@
 #vector3 {
        position: absolute;
        top: 119.78px;
-       left: 1096px;
+       left: 70%;
        width: 53.947px;
        height: 65px;
 }
@@ -156,7 +165,7 @@
 #topview_content {
        position: absolute;
        top: 223px;
-       left: 298px;
+       left: 26%;
        width: 60%;
        height: 45%;
        display: flex;
