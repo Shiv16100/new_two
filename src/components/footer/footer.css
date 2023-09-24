@@ -5,6 +5,9 @@
        flex-shrink: 0;
        padding: 100px 200px;
        position: relative;
+       /* position: absolute;
+       
+       bottom: 0; */
 }
 
 #logo_name>h1 {
