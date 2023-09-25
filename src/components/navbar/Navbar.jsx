@@ -1,17 +1,18 @@
 import React from 'react'
 import './navbar.css'
+import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
        <div id="main">
               <div id="left">
-                     <h1>Carrer <span>Corps</span></h1>
+                     <h1>Career <span>Corps</span></h1>
               </div>
               <div id="center">
-                     <a href="#">Carrer Program</a>
-                     <a href="#">About Us</a>
-                     <a href="#">Why Us</a>
-                     <a href="#">Contact</a>
+                     <NavLink to='/wtp'>Career Program</NavLink>
+                     <NavLink to='/aboutus'>About Us</NavLink>
+                     <NavLink to='/workwithus'>Why Us</NavLink>
+                     <NavLink to='/contactus'>Contact</NavLink>
               </div>
               <div id="right">
                      <button id='signup'>Sign Up</button>
