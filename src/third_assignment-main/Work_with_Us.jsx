@@ -1,6 +1,8 @@
 import React from 'react'
 import TopView from './src/components/topView/TopView'
 import Programs from "./src/components/our-programs_div/Programs";
+import FrequentlyAskedQus from './src/components/frequently-asked-question/FrequentlyAskedQus';
+
 
 
 
@@ -38,6 +40,7 @@ const Work_with_Us = () => {
       <Programs heading={program_headings[1]} />
       <Programs heading={program_headings[2]} />
       <Programs heading={program_headings[3]} />
+      <FrequentlyAskedQus/>
       
     </div>
   )

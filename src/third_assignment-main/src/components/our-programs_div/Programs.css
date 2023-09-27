@@ -11,20 +11,19 @@
   /* background-color: rgb(57, 140, 212); */
 }
 #rectangle-heading-div{
-  width: 183px;
+  width: 180px;
   height: 17px;
   background-color: #FFBB0066;
   position: relative;
   height: 17px;
-  top:-100px;
-  left:-100px;
+  top:-105px;
+  left:-110px;
 
 }
 
 #career-page-programs-cards-container {
   /* background-color: orangered; */
-  padding: 0 116px;
-  width: 1280px;
+  width: 1350px;
   height: 300px;
   display: flex;
   justify-content: space-between;

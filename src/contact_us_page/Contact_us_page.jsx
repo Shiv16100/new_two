@@ -6,10 +6,11 @@ import Testimonial from './src/components/student-testimonials/Testimonials';
 const Contact_us_page = () => {
   return (
     <div>
-       <Topview/>
+         <Topview/>
          <GetInTouch/>
          <CourseFindingSection/>
          <Testimonial/>
+         
     </div>
   )
 }
