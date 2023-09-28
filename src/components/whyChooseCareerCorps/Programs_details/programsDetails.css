@@ -9,6 +9,7 @@
        justify-content: space-around;
        align-items: left;
        flex-direction: column;
+       /* background: #202125; */
 }
 
 #main_programsDetails img {

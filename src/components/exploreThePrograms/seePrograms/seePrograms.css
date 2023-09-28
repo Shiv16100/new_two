@@ -12,6 +12,11 @@
        align-items: center;
        justify-content: space-between;
        margin: 10%, 10%;
+       transform: all ease 2s;
+}
+#seePrograms_main:hover{
+       /* transition-delay: 0.3s; */
+       background-color: #FFB000;
 }
 
 #seePrograms_main img {
@@ -48,4 +53,11 @@
        font-style: normal;
        font-weight: 500;
        line-height: normal;
+}
+@media (min-width: 1100px) and (max-width: 1335px) {
+       
+       #seePrograms_main   {
+                     width: 250px;
+              }
+       
 }

@@ -20,7 +20,7 @@ function App() {
         <Navbar />
         <Routes>
 
-          <Route element={<Home />} path="/" />
+          <Route element={<Home />} path="/internship_assingment" />
           <Route element={<Welcome_to_programs />} path="/wtp" />
           <Route element={<AboutUs />} path="/aboutus" />
           <Route element={<Contact_us_page />} path="/contactus" />
