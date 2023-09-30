@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./Testimonials.css";
 import TestimonialCard from "./TestimonialCard";
 import forward_icon from "./../../images/forward_icon.png";
@@ -28,19 +29,33 @@ const Testimonial = () => {
       image: Boy,
     },
   ];
+ const [cradnum, changeCrd]  = useState(0)
+  function backHandler(){
+      changeCrd(cradnum-1)
+  };
+  function forHandler(){
+    changeCrd(cradnum+1)
+};
+
+
+  let arrOftestcard = [<TestimonialCard student={student_info_message[0]} />,
+  <TestimonialCard student={student_info_message[1]} />,
+  <TestimonialCard student={student_info_message[2]} />,<TestimonialCard student={student_info_message[0]} />, <TestimonialCard student={student_info_message[1]} />,
+  <TestimonialCard student={student_info_message[2]} />]
+
 
   return (
-    <div id="main-testimonial-div">
-      <div id="testimonial-heading-rectangle"></div>
+    <div id="main-testimonial-div-contact-us">
+      <div id="testimonial-heading-rectangle-contact-us"></div>
       <h1>Student Testimonials</h1>
       <div id="testimonial-card-cont">
-        <img src={backward_icon} alt="" id="backward-icon" />
+        <img src={backward_icon} alt="" id="backward-icon" onClick ={backHandler} />
 
-        <TestimonialCard student={student_info_message[0]} />
-        <TestimonialCard student={student_info_message[1]} />
-        <TestimonialCard student={student_info_message[2]} />
+       { arrOftestcard[cradnum] }
+       { arrOftestcard[cradnum+1] }
+       { arrOftestcard[cradnum+2] }
 
-        <img src={forward_icon} alt="" id="forward-icon" />
+        <img src={forward_icon} alt="" id="forward-icon"  onClick ={forHandler}/>
       </div>
     </div>
   );

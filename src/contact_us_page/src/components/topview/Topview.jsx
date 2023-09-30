@@ -9,7 +9,7 @@ const Topview = () => {
         <img src={Main_Contact_us_Page} alt="image" id="top-view-image" />
      
 
-      <div id="heading-contact-us-page">
+      <div id="heading-contact-us-page-1">
         <h1>
           Contact Us For Our <span>Best</span> Courses and Placements
         </h1>

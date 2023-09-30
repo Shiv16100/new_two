@@ -6,24 +6,25 @@
   background-color: #202125;
 }
 #first-div {
-  position: absolute;
-  left: 224px;
+  margin-left:20px
+  /* position: absolute;
+  left: 224px; */
 }
 #first-div h1 {
   color: #fff;
   font-family: Poppins;
-  font-size: 60px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 600;
-  line-height: 110%;
+  line-height: 120%;
   margin-bottom: 0;
-  width:800px;
+  width:700px;
 }
 #first-div h2 {
   margin-top: 5px;
   color: #ffb000;
   font-family: Poppins;
-  font-size: 30.4px;
+  /* font-size: 300px; */
   font-style: normal;
   font-weight: 600;
   /* line-height: 125%; */
@@ -34,7 +35,7 @@
 .icon-get-in-touch {
   margin-top: 32px;
   display: flex;
-  gap: 32px;
+  gap: 22px;
   color: #fff;
   /* font-family: Poppins; */
   font-size: 25px;
@@ -42,9 +43,14 @@
   font-weight: 500;
   line-height: 125%;
 }
+.icon-get-in-touch img{
+  width: 21px;
+height: 34px;
+flex-shrink: 0;
+}
 #top-view-boxes {
-  width: 600px;
-  margin-top: 70px;
+  width: 550px;
+  /* margin-top: 10px; */
   /* gap: 40px; */
   display: flex;
   /* justify-content; */
@@ -52,9 +58,9 @@
   flex-wrap: wrap;
   /* background-color: aquamarine; */
 }
-#top-view-programs {
-  width: 210px;
-  height: 150px;
+#top-view-programs-contact-us {
+  width: 188px;
+  height: 140px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
@@ -69,10 +75,11 @@
       rgba(54, 53, 103, 0.2) 83.85%
     ),
     rgba(49, 48, 54, 0.3);
+
 }
-#top-view-partners {
+#top-view-partners-contact-us {
   width: 280px;
-  height: 150px;
+  height: 140px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
@@ -88,9 +95,9 @@
     ),
     rgba(49, 48, 54, 0.3);
 }
-#top-view-placement {
+#top-view-placement-contact-us {
   width: 420px;
-  height: 150px;
+  height: 140px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
@@ -107,66 +114,66 @@
     rgba(49, 48, 54, 0.3);
 }
 
-#top-view-programs h1 {
+#top-view-programs-contact-us h1 {
   color: #fff;
   font-family: Poppins;
-  font-size: 40px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 137.523%;
   /* 55.009px */
 }
 
-#top-view-programs  span {
+#top-view-programs-contact-us  span {
   color: #e5e7eb;
   font-family: Poppins;
-  font-size: 30px;
+  font-size: 22.36px;
   font-style: normal;
   font-weight: 300;
   line-height: 137.523%;
   /* 41.257px */
 }
 
-#top-view-partners h1 {
+#top-view-partners-contact-us h1 {
   color: #fff;
   font-family: Poppins;
-  font-size: 40px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 137.523%;
   /* 55.009px */
 }
 
-#top-view-partners span {
+#top-view-partners-contact-us span {
   color: #e5e7eb;
   font-family: Poppins;
-  font-size: 30px;
+  font-size: 22.36px;
   font-style: normal;
   font-weight: 300;
   line-height: 137.523%;
 }
-#top-view-placement h1 {
+#top-view-placement-contact-us h1 {
   color: #fff;
   font-family: Poppins;
-  font-size: 40px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 137.523%;
   /* 55.009px */
 }
 
-#top-view-placement  span {
+#top-view-placement-contact-us  span {
   color: #e5e7eb;
   font-family: Poppins;
-  font-size: 30px;
+  font-size: 22.36px;
   font-style: normal;
   font-weight: 300;
   line-height: 137.523%;
 }
 #second-div {
   width: 500px;
-  height: 750px;
-  padding: 48px;
+  height: 700px;
+  padding: 35px 48px;
   flex-shrink: 0;
   border-radius: 10px;
   border: 2px solid rgba(0, 0, 0, 0.2);
@@ -177,20 +184,19 @@
     ),
     rgba(49, 48, 54, 0.3);
   backdrop-filter: blur(2px);
-  position: absolute;
-  right: 192px;
+/* margin-right: 20px; */
 }
 #second-div form input {
   width: 400px;
-  height: 16px;
+  height: 55px;
   flex-shrink: 0;
   border-radius: 10px;
   border: 1px solid #dde2e5;
   background: #fff;
-  padding: 20.3px;
+  padding: 16px;
   color: #202125;
   /* font-family: SF Pro; */
-  font-size: 21px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -201,10 +207,10 @@
   color: #aaaeb1
 }
 #second-div form label {
-  padding-left: 22.4px;
+  padding-left: 16px;
   color: #fff;
   /* font-family: SF Pro; */
-  font-size: 20.8px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 510;
   line-height: normal;
@@ -218,8 +224,8 @@
   border-radius: 10px;
   border: 1px solid #dde2e5;
   background: #fff;
-  padding: 22.4px;
-  font-size: 22px;
+  padding: 16px;
+  font-size: 18px;
   outline: none;
 }
 #second-div textarea::placeholder{
@@ -232,7 +238,7 @@
   border-radius: 10px;
   outline: none;
   border: none;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   background-color: #ffb000;

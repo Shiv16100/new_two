@@ -1,12 +1,12 @@
-#main-testimonial-div{
+#main-testimonial-div-contact-us{
     width:1133px;
     height: 566px;
     margin: auto;
-    left:350px;
+    margin-left:190px;
     font-family: Poppins;
     transition: all ease 2s;
 }
-#main-testimonial-div h1{
+#main-testimonial-div-contact-us h1{
   text-align: center;
   font-size: 40px;
   font-weight: 500;
@@ -14,13 +14,11 @@
   color:#202125;
 }
 
-
 #testimonial-card-cont{
     display: flex;
    justify-content: space-between;
    align-items: center;
    gap:10px;
-   background-color: palevioletred;
 }
 #forward-icon{
   width:20px;
@@ -30,9 +28,11 @@
   width:20px;
   height: 30px;
 }
-#testimonial-heading-rectangle{
+#testimonial-heading-rectangle-contact-us{
   background-color:  #FFBB0040;
   width:255px;
   height: 17px;
   position: relative;
+  left:260px;
+  top:50px;
 }

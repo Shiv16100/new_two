@@ -3,10 +3,10 @@ import "./ProgramCard.css";
 const ProgramCard = (props) => {
   const h1=props.head_1.head;
   return (
-    <div id="main-card-div">
+    <div id="main-card-div-abt-us">
       <div id="first-box-1">
-        <div className="info-buttons-place">Full Time</div>
-        <div className="info-buttons-place">Onsite</div>
+        <div className="info-buttons-place-abt-us">Full Time</div>
+        <div className="info-buttons-place-abt-us">Onsite</div>
       </div>
       <div id="second-box-1">
         <h1>{h1}</h1>

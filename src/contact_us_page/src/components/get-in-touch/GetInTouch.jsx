@@ -9,6 +9,7 @@ const GetInTouch = () => {
         <h1>Book <span>One-to-One</span> Consultant with us. </h1>
 
         <h2>Career corps, Noida, Uttar Pradesh</h2>
+
         <div id="image-phone" className="icon-get-in-touch">
           <img src={phone}></img>
           <span>+91 8924356264</span>
@@ -19,15 +20,15 @@ const GetInTouch = () => {
         </div>
         <div>
           <div id="top-view-boxes">
-            <div id="top-view-programs">
+            <div id="top-view-programs-contact-us">
               <h1>50+</h1>
               <span>Programs</span>
             </div>
-            <div id="top-view-partners">
+            <div id="top-view-partners-contact-us">
               <h1>100+</h1>
               <span>Hiring Partners</span>
             </div>
-            <div id="top-view-placement">
+            <div id="top-view-placement-contact-us">
               <h1>100%</h1>
               <span>Placement Gaurantee*</span>
             </div>
@@ -72,7 +73,7 @@ const GetInTouch = () => {
               name="message"
               id="message"
               cols="30"
-              rows="6"
+              rows="5"
               placeholder="Your Message..."
             ></textarea>
           </div>

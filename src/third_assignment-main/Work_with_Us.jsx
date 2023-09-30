@@ -12,7 +12,7 @@ const Work_with_Us = () => {
        const program_headings = [
               {
                 main_head:"Full Time Job Roles",
-                card_info:[{head:"Blockchain Developer"},{head:"Phyton Developer"},{head:"MERN stack Developer"}]
+                card_info:[{head:"A",id:1},{head:"B",id:2},{head:"C",id:3},{head:"D",id:3},{head:"E",id:3},{head:"F",id:3} ]
               }
               ,
               {

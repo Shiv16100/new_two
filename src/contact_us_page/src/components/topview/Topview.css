@@ -11,7 +11,6 @@
    position: absolute;
    right: 0;
    z-index: 10;
-
 }
 
 #top-view-image{
@@ -20,26 +19,24 @@
    position: absolute;
    right: 0;
    z-index: 1;
-
-   
 }
-#heading-contact-us-page{
-width: 928px;
-height: 349px;
+#heading-contact-us-page-1{
+width: 620px;
+height: 216px;
 color: #FFF;
-font-family: Poppins;
-font-size: 48px;
+/* font-family: Poppins; */
+font-size: 32px;
 font-style: normal;
-font-weight: 400;
-line-height: 185%;
-margin-left:160px ;
-margin-top: 160px;
+font-weight: 600;
+line-height: 220%;
+margin-left:149px ;
+margin-top: 180px;
 }
-#heading-contact-us-page span{
+#heading-contact-us-page-1 span{
   color:#FFB000;
 }
-#heading-contact-us-page button{
-width: 224px;
+#heading-contact-us-page-1 button{
+width: 216px;
 height: 74px;
 flex-shrink: 0;
 border-radius: 10px;
@@ -51,14 +48,17 @@ color:#FFF;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
-line-height: 137.523%;
+line-height: 137.5%;
+margin-top: 59px;
+position: relative;
+left:-160px;
 }
-#heading-contact-us-page img{
-  position: absolute;
-  left:128px;
-  top:342px;
-  height: 106px;
-  width:272px
+#heading-contact-us-page-1 img{
+  position: relative;
+  top:-174px;
+  left:-12px;
+  height: 72px;
+  width:165px
 }
 
 

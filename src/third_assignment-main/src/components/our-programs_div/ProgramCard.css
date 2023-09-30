@@ -2,13 +2,14 @@
   padding: 0;
   margin: 0;
 }
-#main-card-div {
+#main-card-div-abt-us {
   width: 400px;
   height: 300px;
   flex-shrink: 0;
   background-color: #fff;
   border-radius: 20px;
   border: 2px solid #e5e7eb;
+  transition: all ease 2s;
 }
 #first-box-1 {
   display: flex;
@@ -16,7 +17,7 @@
   padding-left: 30px;
   padding-top: 30px;
 }
-.info-buttons-place {
+.info-buttons-place-abt-us {
   width: 100px;
   height: 62px;
   flex-shrink: 0;
