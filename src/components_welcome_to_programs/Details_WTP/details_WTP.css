@@ -80,6 +80,14 @@
        border-top: 3px solid #E5E7EB;
        border-top-left-radius: 50px;
 }
+.top_div>img:nth-last-of-type(1){
+       position: absolute;
+  width: 150px;
+  top: 0;
+  right: 0;
+  transform: translate(50%,-50%);
+  /* transform: translateX(50%); */
+}
 
 .top_div>h1,
 .left_div>h1 {
@@ -138,6 +146,14 @@
        border-bottom: 3px solid #E5E7EB;
        border-bottom-right-radius: 50px;
        margin-bottom: 140px;
+}
+.bottom_div>img:nth-last-of-type(1){
+       position: absolute;
+  width: 150px;
+  bottom: 0;
+  left: 0;
+  transform: translate(-50%,50%);
+  /* transform: translateX(50%); */
 }
 
 .right_div::before,

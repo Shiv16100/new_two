@@ -47,7 +47,9 @@
        padding-left: 50px;
        width: 100%;
 }
-
+.map>div:nth-of-type(1){
+       display: flex;
+}
 .map>h1 {
        position: relative;
        color: #202125;

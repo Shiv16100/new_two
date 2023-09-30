@@ -29,6 +29,9 @@ import img_testi from './../../images/img_testi.svg'
 import certificate from './../../images_WTP/certificate.jpg'
 import Mentors_bio from './Mentors_bio/Mentors_bio'
 
+import student from './../../images_WTP/student.png'
+import graduation from './../../images_WTP/graduation.png'
+
 const Details_WTP = () => {
   return (
     <div>
@@ -36,6 +39,7 @@ const Details_WTP = () => {
         <p>Program CURRICULUM</p>
         <h1><span>Industry Ready</span> and Detailed Syllabus</h1>
         <div className="top_div div">
+          <img src={student} alt="" />
           <h1>1</h1>
           <Cariculam img={growth} title="Introduction" details="Analyse past student information for tailored insights using our AI " />
 
@@ -65,7 +69,7 @@ const Details_WTP = () => {
         <div className="bottom_div div">
           <h1>6</h1>
           <Cariculam img={discussion} title="Introduction" details="Analyse past student information for tailored insights using our AI " />
-
+      <img src={graduation} alt="" />
         </div>
         <h1>Earn a <span>Career Certificate</span></h1>
         <div className="certificate_WTP">
