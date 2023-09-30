@@ -25,6 +25,7 @@ function App() {
           <Route element={<AboutUs />} path="/aboutus" />
           <Route element={<Contact_us_page />} path="/contactus" />
           <Route element={<Work_with_Us />} path="/workwithus" />
+          <Route element={<Upskill/>} path="/upskill" />
         </Routes>
         <Footer />  </BrowserRouter>
       {/* <Navbar/> */}
