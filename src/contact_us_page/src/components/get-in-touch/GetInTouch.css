@@ -48,13 +48,13 @@
 height: 34px;
 flex-shrink: 0;
 }
-#top-view-boxes {
+#top-view-boxes-contact-us-pages {
   width: 550px;
-  /* margin-top: 10px; */
-  /* gap: 40px; */
+  margin-top: 50px;
+  gap: 40px;
   display: flex;
   /* justify-content; */
-  height: 140px;
+  height: 330px;
   flex-wrap: wrap;
   /* background-color: aquamarine; */
 }

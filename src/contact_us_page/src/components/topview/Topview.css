@@ -21,15 +21,15 @@
    z-index: 1;
 }
 #heading-contact-us-page-1{
-width: 620px;
+width: 670px;
 height: 216px;
 color: #FFF;
-/* font-family: Poppins; */
-font-size: 32px;
+font-family: Poppins;
+font-size: 35px;
 font-style: normal;
 font-weight: 600;
-line-height: 220%;
-margin-left:149px ;
+line-height: 240%;
+margin-left:135px ;
 margin-top: 180px;
 }
 #heading-contact-us-page-1 span{
@@ -44,21 +44,21 @@ background: #FFB000;
 border: none;
 outline: none;
 color:#FFF;
-/* font-family: Poppins; */
+font-family: Poppins;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: 137.5%;
 margin-top: 59px;
 position: relative;
-left:-160px;
+left:-183px;
 }
 #heading-contact-us-page-1 img{
   position: relative;
-  top:-174px;
-  left:-12px;
-  height: 72px;
-  width:165px
+  top:-184.5px;
+  left:-24px;
+  height: 88px;
+  width:195px
 }
 
 

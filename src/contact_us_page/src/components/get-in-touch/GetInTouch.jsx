@@ -19,7 +19,7 @@ const GetInTouch = () => {
           <span>support@Careercorps.in</span>
         </div>
         <div>
-          <div id="top-view-boxes">
+          <div id="top-view-boxes-contact-us-pages">
             <div id="top-view-programs-contact-us">
               <h1>50+</h1>
               <span>Programs</span>
