@@ -2,28 +2,30 @@ import "./TopView.css";
 
 const Topview = () => {
   return (
-    <div id="main_top-view">
-     
-        <div id="ellipce"></div>
-        <h1>Upskill <span> Yourself </span></h1>
-        <p>
+    <div id="main_top-view-career-programs-1">
+      <div id="first-part-career-programs-1">
+        <div id="ellipce-career-programs-1"></div>
+        <h1>
+          Upskill <span> Yourself </span>
+        </h1>
+        <span>
           Programs designed in collaboration with leading industry experts to
           help you develop strong fundamentals.
-        </p>
+        </span>
         <button> Go to Programs</button>
-        
-      <div id="top-view-boxes">
-        <div id="programs">
+      </div>
+      <div id="top-view-boxes-career-programs-1">
+        <div id="programs-career-programs-1-1">
           <h1>50+</h1>
-          <span>Programs</span>
+          <p>Programs</p>
         </div>
-        <div id="partners">
+        <div id="partners-career-programs-1-2">
           <h1>100+</h1>
-          <span>Hiring Partners</span>
+          <p>Hiring Partners</p>
         </div>
-        <div id="placement">
+        <div id="placement-career-programs-1-3">
           <h1>100%</h1>
-          <span>Placement Gaurantee*</span>
+          <p>Placement Gaurantee*</p>
         </div>
       </div>
     </div>

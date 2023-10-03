@@ -29,7 +29,7 @@ const HiringPartners = () => {
   ];
 
   return (
-    <div id="hiring-partners-main-div">
+    <div id="hiring-partners-main-div-10">
       <h1>
         100+ <span>Hiring Partners</span>
       </h1>

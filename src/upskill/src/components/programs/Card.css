@@ -6,6 +6,8 @@
     padding-left:30px;
     padding-right: 30px;
     font-family: Poppins;
+    overflow: hidden;
+    /* background-color: red; */
 
 }
 
@@ -56,7 +58,8 @@
     width: 341px;
     height: 117px;
     justify-content: space-between;
-    margin-top: 36px;
+    margin-top: 5px;
+    
 }
 
 #card-main-info div{
@@ -78,9 +81,9 @@
     /* transform: rotate(-3.574); */
     width:161.792px;
     height: 162.536px;
-    position: absolute;
-    margin-left: 209px;
-    margin-top: -227px;
+   margin-left: 210px;
+   margin-top: -300px;
+   margin-bottom: 70px;
 }
 #card-div-1>button>a{
     text-decoration: none;

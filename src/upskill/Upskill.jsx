@@ -10,7 +10,7 @@ const Upskill = () => {
        <Topview/>
       <Program></Program>
       <HiringPartners></HiringPartners>
-      <Testimonial/>
+      {/* <Testimonial/> */}
     </div>
   )
 }
