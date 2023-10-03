@@ -1,7 +1,7 @@
 {
   "name": "myapp",
   "version": "0.1.0",
-  "homepage": "https://Shiv16100.github.io/internship",
+  "homepage": "https://Shiv16100.github.io/intern_new",
   "private": true,
   "dependencies": {
     "@react-google-maps/api": "^2.19.2",
