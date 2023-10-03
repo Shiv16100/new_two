@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import './Card.css'
 
 const Card =(props) => {
@@ -20,7 +21,7 @@ const Card =(props) => {
                  <div>{rating}</div>
                 <div>Study at your own Pace</div>
             </div>
-            <button>Apply Now</button>
+            <button><NavLink to='/wtp'>Apply Now</NavLink></button>
             </div>
         </div>
     )

@@ -6,6 +6,7 @@
        justify-content: center;
        align-items: center;
 }
+
 /* #center{
        position: relative;
        width: 90%;
@@ -112,7 +113,7 @@
 
 
 
-#programs {
+#programs_KS {
 
        position: absolute;
        top: 76px;
@@ -128,7 +129,7 @@
 
 }
 
-#programs img {
+#programs_KS img {
        width: 60px;
        height: 60px;
        margin: 20px;
@@ -246,12 +247,12 @@
        height: 50px; */
        /* display: flex;
         */
-        display: inline-block;
+       display: inline-block;
        position: absolute;
        top: 702px;
        left: 50%;
        /* transition: translate(-50%,0); */
-       transform: translate(-50%,0);
+       transform: translate(-50%, 0);
        padding: 10px 20px;
        justify-content: center;
        align-items: center;
@@ -260,11 +261,80 @@
        background: #FFB000;
 }
 
-#hiring_partners h1 {
-       
+screen #hiring_partners h1 {
+
        color: white;
        font-size: 20px;
        font-style: normal;
        font-weight: 700;
        line-height: normal;
+}
+
+
+
+@media (min-width: 1450px) and (max-width: 1570px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 14%;
+       }
+
+       #topview_content {
+              left: 21%;
+       }
+
+       #topview_content>h1 {
+              font-size: 70px;
+       }
+}
+
+@media all and (max-width: 1450px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 14%;
+       }
+
+       #topview_content {
+              left: 21%;
+       }
+
+       #topview_content>h1 {
+              font-size: 60px;
+       }
+       #topview_content>h1>span{
+              font-size: 60px;
+       }
+
+       #topview_content>h2 {
+              font-size: 25px;
+       }
+       #placements{
+              width: 400px;
+       }
+       #placements_text>h1{
+              font-size: 30px;
+       }
+       #placements_text>span{
+              font-size: 22px;
+       }
+       #placements>img{
+              width: 70px;
+       }
+       #learners{
+              width: 315px;
+       }
+       #learner_text>h1{
+              font-size: 35px;
+       }
+       #learner_text>span{
+              font-size: 27px;
+       }
+       #learners>img{
+              width: 90px;
+       }
 }

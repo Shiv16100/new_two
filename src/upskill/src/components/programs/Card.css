@@ -82,4 +82,8 @@
     margin-left: 209px;
     margin-top: -227px;
 }
+#card-div-1>button>a{
+    text-decoration: none;
+    color: white;
+}
 

@@ -7,7 +7,7 @@
        padding: 10%;
 }
 #mentors_mAST{
-       width: 80%;
+       width: 90%;
        height: 600px; 
        display: flex;
        flex-direction: column;
@@ -39,7 +39,7 @@
 
 #studentsTestimonials_mAST{
        margin-top: 80px;
-       width: 80%;
+       width: 90%;
        height: 500px;
        display: flex;
        flex-direction: column;
