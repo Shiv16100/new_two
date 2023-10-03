@@ -9,6 +9,29 @@ import Media_Post from './Media_post/Media_Post'
 import GoogleMapReact from 'google-map-react';
 import indiatoday from './../../images_aboutUs/india_today.png'
 import livemint from './../../images_aboutUs/livemint.png'
+// import { Swiper } from 'swiper/types'
+
+
+
+
+
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+// import './styles.css';
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
+
+
+
+
 const In_The_Media = () => {
 
 
@@ -28,12 +51,36 @@ const In_The_Media = () => {
                             <div className="ITM">
                                    <h1>In the <span>Media</span></h1>
                                    <div className="media_post_ITM">
-                                          <Media_Post logo={livemint} />
-                                          <Media_Post logo={indiatoday} />
-                                          <Media_Post logo={livemint} />
-                                          <Media_Post logo={indiatoday} />
-                                          <Media_Post logo={livemint} />
+                                          <Swiper
+                                                 slidesPerView={4}
+                                                 autoplay={{
+                                                        delay: 2000,
+                                                        disableOnInteraction: false,
+                                                 }}
+                                                 spaceBetween={5}
+                                                 pagination={{
+                                                        type: 'none',
+                                                 }}
+                                                 navigation={true}
+                                                 modules={[Autoplay, Pagination, Navigation]}
+                                                 className="mySwiper"
+                                          >
+                                                 {/* <Media_Post logo={livemint} />
+                                                 <Media_Post logo={indiatoday} />
+                                                 <Media_Post logo={livemint} />
+                                                 <Media_Post logo={indiatoday} />
+                                                 <Media_Post logo={livemint} /> */}
 
+                                                 <SwiperSlide><Media_Post logo={livemint} /> </SwiperSlide>
+                                                 <SwiperSlide><Media_Post logo={indiatoday} /></SwiperSlide>
+
+                                                 <SwiperSlide><Media_Post logo={livemint} /> </SwiperSlide>
+                                                 <SwiperSlide><Media_Post logo={indiatoday} /></SwiperSlide>
+
+                                                 <SwiperSlide><Media_Post logo={livemint} /> </SwiperSlide>
+                                                 <SwiperSlide><Media_Post logo={indiatoday} /></SwiperSlide>
+
+                                          </Swiper>
                                    </div>
                             </div>
                             <div className="map">

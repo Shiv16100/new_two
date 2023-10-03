@@ -1,5 +1,5 @@
 .main_details_WTP {
-       height: 340rem;
+       height: 350rem;
        width: 100%;
        text-align: center;
        display: flex;
@@ -18,7 +18,7 @@
        line-height: 137.523%;
        /* 2.57856rem */
        text-transform: uppercase;
-       margin-top: 5rem;
+       margin-top: 6rem;
 }
 
 .main_details_WTP>h1 {
@@ -31,7 +31,7 @@
        line-height: 130.5%;
        /* 3.2625rem */
        margin-top: 1.5rem;
-       margin-bottom: 4rem;
+       margin-bottom: 1rem;
        position: relative;
 }
 .main_details_WTP>h1>span::after {
@@ -77,6 +77,7 @@
 }
 
 .top_div {
+       margin-top: 4rem;
        border-top: 3px solid #E5E7EB;
        border-top-left-radius: 50px;
 }
@@ -296,4 +297,7 @@
        font-weight: 300;
        line-height: 15.5px;
        /* 110.714% */
+}
+.mySwiper{
+       margin-top: 75px !important;
 }

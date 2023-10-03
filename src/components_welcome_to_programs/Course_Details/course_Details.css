@@ -18,6 +18,9 @@
 }
 
 .Certificates {
+       display: flex;
+       justify-content: center;
+       align-items: center;
        padding: 20px 30px;
        width: 15.8125rem;
        height: 8.75rem;
@@ -28,7 +31,7 @@
 
 }
 
-.Certificates>h1 {
+.Certificates>div>h1 {
        color: #FFF;
        font-family: Poppins;
        font-size: 2.5rem;
@@ -38,7 +41,7 @@
        /* 3.43806rem */
 }
 
-.Certificates>p {
+.Certificates>div>p {
        color: #E5E7EB;
        font-family: Poppins;
        font-size: 1.875rem;
@@ -49,6 +52,9 @@
 }
 
 .ETE {
+       display: flex;
+       justify-content: center;
+       align-items: center;
        padding: 20px 30px;
        width: 23rem;
        height: 8.75rem;
@@ -59,7 +65,7 @@
 
 }
 
-.ETE>h1 {
+.ETE>div>h1 {
        color: #FFF;
        font-family: Poppins;
        font-size: 2.5rem;
@@ -70,7 +76,7 @@
 }
 
 
-.ETE>p {
+.ETE>div>p {
        color: #E5E7EB;
        font-family: Poppins;
        font-size: 1.875rem;
@@ -81,6 +87,9 @@
 }
 
 .live_Hour {
+       display: flex;
+       justify-content: center;
+       align-items: center;
        padding: 20px 30px;
        width: 24.875rem;
        height: 8.75rem;
@@ -91,7 +100,7 @@
 
 }
 
-.live_Hour>h1 {
+.live_Hour>div>h1 {
        color: #FFF;
        font-family: Poppins;
        font-size: 2.5rem;
@@ -101,7 +110,7 @@
        /* 3.43806rem */
 }
 
-.live_Hour>p {
+.live_Hour>div>p {
        color: #E5E7EB;
        font-family: Poppins;
        font-size: 1.875rem;
@@ -112,6 +121,8 @@
 }
 
 .details_CD {
+      
+       
        margin-top: 8rem;
        width: 100%;
        height: 34.375rem;
@@ -123,12 +134,14 @@
 }
 
 .top_details {
+       display: flex;
+       justify-content: space-between;
        width: 100%;
        height: 30%;
        padding: 4% 8%;
 }
 
-.top_details>p {
+.top_details>div>p {
        color: #FFB000;
        /* text-align: center; */
        font-family: Poppins;
@@ -139,7 +152,7 @@
        /* 1.71906rem */
 }
 
-.top_details>h1 {
+.top_details>div>h1 {
        color: #FFF;
        /* text-align: center; */
        font-family: Poppins;
@@ -155,7 +168,7 @@
        height: 70%;
        padding: 4% 8%;
 }
-.bottom_details>h1{
+.price_CD>div>h1{
        color: #FFB000;
        margin-top: 4rem;
 /* text-align: center; */
@@ -165,7 +178,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 137.523%; /* 4.29756rem */
 }
-.bottom_details>p{
+.price_CD>div>p{
        color: #AAAEB1;
 /* text-align: center; */
 font-family: Poppins;
@@ -180,7 +193,7 @@ line-height: 137.523%; /* 1.54713rem */
 .bottom_details>div{
        display: flex;
        align-items: center;
-       justify-content: left;
+       justify-content: space-between;
 }
 .students_enrolled {
        width: 20.8125rem;
@@ -227,3 +240,4 @@ line-height: 137.523%; /* 1.54713rem */
        /* 1.71906rem */
        text-transform: capitalize;
 }
+

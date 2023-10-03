@@ -15,7 +15,7 @@ import 'swiper/css/navigation';
 // import './styles.css';
 
 // import required modules
-import {  Autoplay,  Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 import growth from './../../images_WTP/growth.png'
 import ai from './../../images_WTP/ai.png'
@@ -69,7 +69,7 @@ const Details_WTP = () => {
         <div className="bottom_div div">
           <h1>6</h1>
           <Cariculam img={discussion} title="Introduction" details="Analyse past student information for tailored insights using our AI " />
-      <img src={graduation} alt="" />
+          <img src={graduation} alt="" />
         </div>
         <h1>Earn a <span>Career Certificate</span></h1>
         <div className="certificate_WTP">
@@ -88,17 +88,17 @@ const Details_WTP = () => {
           <Mentors_bio/>
           <Mentors_bio/> */}
           <Swiper
-          slidesPerView={3}
-          autoplay={{
-            delay: 2000,
-            disableOnInteraction: false,
-          }}
-          spaceBetween={30}
+            slidesPerView={3}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
+            spaceBetween={30}
             pagination={{
               type: 'none',
             }}
             navigation={true}
-            modules={[Autoplay,Pagination, Navigation]}
+            modules={[Autoplay, Pagination, Navigation]}
             className="mySwiper"
           >
             <SwiperSlide><Mentors_bio /></SwiperSlide>
@@ -110,29 +110,31 @@ const Details_WTP = () => {
 
           </Swiper>
         </div>
+        <p>Seniors</p>
+        <h1>Learn form the <span>best</span></h1>
         <div id="horizonatal_scroll_testimonials">
-            <Swiper
-              slidesPerView={3}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
-              spaceBetween={30}
-              pagination={{
-                clickable: true,
-              }}
-              modules={[Autoplay, Pagination]}
-              className="mySwiper"
-            >
-              <SwiperSlide><Testimonails img={img_testi} name="Jheel Tripathi" class="12th Grade" /></SwiperSlide>
-              <SwiperSlide><Testimonails img={img_testi} name="Jheel Tripathi" class="12th Grade" /></SwiperSlide>
-              <SwiperSlide><Testimonails img={img_testi} name="Jheel Tripathi" class="12th Grade" /></SwiperSlide>
-              <SwiperSlide><Testimonails img={img_testi} name="Jheel Tripathi" class="12th Grade" /></SwiperSlide>
-              <SwiperSlide><Testimonails img={img_testi} name="Jheel Tripathi" class="12th Grade" /></SwiperSlide>
+          <Swiper
+            slidesPerView={3}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            spaceBetween={30}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Autoplay, Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide><Testimonails img={img_testi} name="Jheel Tripathi" class="12th Grade" /></SwiperSlide>
+            <SwiperSlide><Testimonails img={img_testi} name="Jheel Tripathi" class="12th Grade" /></SwiperSlide>
+            <SwiperSlide><Testimonails img={img_testi} name="Jheel Tripathi" class="12th Grade" /></SwiperSlide>
+            <SwiperSlide><Testimonails img={img_testi} name="Jheel Tripathi" class="12th Grade" /></SwiperSlide>
+            <SwiperSlide><Testimonails img={img_testi} name="Jheel Tripathi" class="12th Grade" /></SwiperSlide>
 
-            </Swiper>
-          </div>
-        
+          </Swiper>
+        </div>
+
 
       </div>
 

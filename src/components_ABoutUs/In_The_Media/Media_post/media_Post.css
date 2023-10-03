@@ -1,5 +1,5 @@
 .main_MP {
-       width: 25rem;
+       width: 22rem;
        height: 18.75rem;
        flex-shrink: 0;
        border-radius: 2.5rem;
@@ -9,16 +9,15 @@
        flex-direction: column;
        justify-content: space-around;
        align-items: center;
-       padding: 0px 50px;
-       padding-top: 40px;
-       margin-left: 50px;
+       padding: 0px 40px;
+       padding-top: 30px;
+       /* margin-left: 10px; */
 }
 
 .main_MP>img {
-       width: 10.4375rem;
-       height: 4.375rem;
-       flex-shrink: 0;
-}
+       width: 184px !important;
+       height: 82px !important;
+     }
 
 .main_MP>p {
        color: #000;

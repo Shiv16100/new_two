@@ -19,6 +19,8 @@
        line-height: 119.5%;
        /* 4.48125rem */
        margin-bottom: 3rem;
+       z-index: 10;
+  position: relative;
 }
 
 .main_header_WTP>h1>span {
@@ -28,6 +30,8 @@
        font-style: normal;
        font-weight: 600;
        line-height: 119.5%;
+       z-index: 10;
+  position: relative;
 }
 
 .main_header_WTP>p {
@@ -40,6 +44,9 @@
        /* 2.40663rem */
        margin-bottom: 2rem;
        width: 60rem;
+       z-index: 10;
+  position: relative;
+
 }
 
 .btn_one {
@@ -59,6 +66,8 @@
        line-height: 137.523%;
        /* 2.06281rem */
        margin-right: 2rem;
+       z-index: 10;
+  position: relative;
 }
 .btn_two{
        display: inline-flex;
@@ -75,6 +84,8 @@
        font-style: normal;
        font-weight: 500;
        line-height: 137.523%;
+       z-index: 10;
+  position: relative;
        /* 2.06281rem */
 }
 /* .image{
