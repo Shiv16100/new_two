@@ -31,8 +31,9 @@
 
 #bestsellerCareerDevelopmentPrograms_Programs {
        width: 100%;
-       display: flex;
-       justify-content: space-around;
+      
+       /* display: flex;
+       justify-content: space-around; */
 
 }
 
@@ -80,4 +81,7 @@
        font-style: normal;
        font-weight: 600;
        line-height: 114.5%;
+}
+.PD{
+       background: #202125;
 }

@@ -3,7 +3,12 @@
        height: 50rem;
        width: 100%;
        padding: 12% 10%;
-}
+       /* background: url('./../../images_WTP/frontend.png'); */
+       background-repeat: repeat;
+       
+       background-position: left;
+       position: relative;
+       }
 
 .main_header_WTP>h1 {
        color: #FFF;
@@ -71,4 +76,16 @@
        font-weight: 500;
        line-height: 137.523%;
        /* 2.06281rem */
+}
+/* .image{
+       position: absolute;
+       right: 0;
+       bottom: 0;
+} */
+/* #top-view-image{
+       top
+} */
+.im{
+       top: 0;
+
 }
